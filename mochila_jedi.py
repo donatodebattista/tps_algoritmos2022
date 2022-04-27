@@ -23,7 +23,7 @@ def usar_la_fuerza(mochila):
 
 if (usar_la_fuerza(vector_mochila)):
     print("Se ha encontrado un sable de luz")
-    print("Fue necesario eliminar", cantidad_de_objetos - len(vector_mochila), "objeto/s para encontrarlo")
+    print("Fue necesario sacar", cantidad_de_objetos - len(vector_mochila), "objeto/s para encontrarlo")
     print(" ")
 else:
     print("La mochila no contenia un sable de luz")
